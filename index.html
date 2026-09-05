@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Neon Arcade</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="arcade">
+        <header class="header">
+            <div>
+                <h1>NEON DODGE</h1>
+                <p>GERALTER // NEON-ARCADE</p>
+            </div>
+
+            <div class="score">
+                SCORE
+                <span id="score">0000</span>
+            </div>
+        </header>
+
+        <section class="game-container">
+            <canvas id="game"></canvas>
+
+            <div class="overlay" id="overlay">
+                <div class="status">
+                    <span class="dot"></span>
+                    AUTOPLAY
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span>RANDOM PATTERN</span>
+            <span>◈</span>
+            <span>AUTONOMOUS MODE</span>
+        </footer>
+    </main>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
